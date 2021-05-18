@@ -10,6 +10,8 @@ public class TesteEscritaFileWrite {
         //BufferedWriter bw =  new BufferedWriter(osw);
 
         FileWriter fw = new FileWriter("lorem4.txt");
+        //caso foi utilizar o Buffered podemos voltar a utilizar o bw.newline.
+        //BufferedWriter bw = new BufferedWriter(fw);
 
         //linheSeparator "Fazer nova linha"
         fw.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
