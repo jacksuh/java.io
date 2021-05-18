@@ -12,6 +12,5 @@ public class TesteLeituraScanner {
         }
 
         scanner.close();
-
     }
 }
