@@ -11,7 +11,7 @@ public class TesteSerializacao {
         //cliente.setCpf("23413131");
 
 //            String nome = "Nico Steppat";
-//            ObjectOutputStream oos = new ObjectOutputStream("objeto.bin"));
+//            ObjectOutputStream oos = new ObjectOutputStream("cliente.bin"));
 //            oos.writeObject(nome);
 //            oos.close();
 
