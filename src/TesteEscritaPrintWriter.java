@@ -19,7 +19,7 @@ public class TesteEscritaPrintWriter {
 
         //linheSeparator "Fazer nova linha"
 
-        PrintWriter ps = new PrintWriter("lorem5.txt");
+        PrintWriter ps = new PrintWriter("lorem5.txt", "UTF-8");
 
         ps.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
         ps.println();
